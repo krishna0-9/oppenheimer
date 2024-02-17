@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #ddd8d6;
+}
+
+.ask{
+    font-family: "Salsa", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.btn{
+    color: white;
+    padding: 10px 22px;
+    border: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#noButton{
+    background-color: #f25555;
+    position: absolute;
+    border-radius: 10%;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+#yesButton{
+    background-color: #04c351;
+    position: absolute;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+#noButton1{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#yesButton1 {
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 170px;
+    transform: scale(1.2); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 1.3em; /* Increase font size of text inside the button by 1.5x */
+}
+
+#yesButton2{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 170px;
+    transform: scale(1.4); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 1.5em; /* Increase font size of text inside the button by 1.5x */
+}
+
+#noButton2{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+#yesButton3{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 220px;
+    transform: scale(1.6); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 1.7em; /* Increase font size of text inside the button by 1.5x */
+}
+#yesButton4{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 170px;
+    transform: scale(1.8); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 1.9em;
+}
+#noButton4{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+#yesButton5{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-right: 200px;
+    transform: scale(2.0); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 2.1em;
+}
+#noButton5{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#yesButton6{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-right: 200px;
+    transform: scale(2.2); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 2.3em;
+}
+#noButton6{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#noButton7{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+#yesButton7{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 110px;
+    margin-right: 200px;
+    transform: scale(2.4); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 2.5em;
+}
+#noButton8{
+    background-color: #f25555;
+    position: absolute;
+    border: 2px solid #f25555;
+    border-radius: 8px;
+    margin-left: 270px;
+    margin-top: 110px;
+}
+
+#yesButton8{
+    background-color: #04c351;
+    position: absolute;
+    border: 2px solid #04c351;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-right: 200px;
+    transform: scale(2.8); /* Increase size of button by 1.5x */
+    padding: 10px 20px; /* Increase padding for button */
+    font-size: 2.9em;
+}
+
+.gif_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

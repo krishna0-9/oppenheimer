@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Salsa&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styledate.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="gif_container">
+            <img src="https://media.tenor.com/R4E_-K_HrjEAAAAi/watching-tv.gif" alt="cute gif">
+        </div>
+        <div>
+            <h1 class="ask">
+                <div>
+                    <h1 class="ask">DO YOU WANNA WATCH OPPENHEIMER WITH ME TONIGHT? </h1>
+                </div>
+            </h1>
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="yesButton3" onclick="nextPage('yes.html')">Yes</button>
+            <button class="btn" id="noButton2" onclick="showConfirmation()">Just think about it!</button>
+        </div>
+        
+        <script>
+            function nextPage(destination) {
+                window.location.href = destination;
+            }
+              
+            function showConfirmation() {
+                window.location.href = "fourth.html";
+            }
+        </script>
+
+    </div>
+</body>
+</html>
+
